@@ -5,58 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>uy ishi</title>
-    <!-- <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/main.css"> -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <main>
+        <header>
+            <div class="container">
+                <div class="header_wrapper">
+                    <img src="/images/map.png" alt="logotip-image">
+                    <img src="/images/dark.png" alt="">
+                </div>
+            </div>
+        </header>
         <section>
             <div class="container">
-                <div class="wrapper">
-                    <h1 class="main_text">Our Pricing</h1>
-                    <div class="big_wrapper">
-                        <div class="box_for_title">
-                            <span class="span_clas">Annually</span>
-                            <form action="" method="post">
-                                <label class="switch">
-                                    <input class="hero__input" type="checkbox" checked>
-                                    <span class="slider round"></span>
-                                </label>
-                            </form>
-                            <span class="span_clas">Monthly</span>
-                        </div>
-                    </div>
-                    <ul class="price_lists">
-                        <li class="price_items">
-                            <p class="basic">Basic</p>
-                            <p class="price"><span class="price_span">$</span>19.99</p>
-                            <p class="paket_gb">500 GB Storage</p>
-                            <p class="paket_gb">2 Users Allowed</p>
-                            <p class="paket_gb">Send up to 3 GB</p>
-                            <a class="link_word" href="#">Learn more</a>
+                <div class="search_box">
+                    <form action="https://echo.htmlacademy.ru/" method="post">
+                        <input class="search_class" type="search" name="user_name" placeholder="Search for a country… "
+                            aria-label="search">
+                    </form>
+                    <select name="Country" id="country">
+                        <option hidden>Filter by Region</option>
+                        <option name="country" value="africa">Africa</option>
+                        <option name="country" value="africa">America</option>
+                        <option name="country" value="africa">Asia</option>
+                        <option name="country" value="africa">Europe</option>
+                        <option name="country" value="africa">Oceania</option>
+                    </select>
+                </div>
+                <div class="flag-country">
+                    <ul class="country-list">
+                        <li class="country-item">
+                            <img src="/images/german.png" alt="" class="flag">
+                            <h4>Germany</h4>
+                            <p>Population: 81,770,900</p>
+                            <p>Region: Europe</p>
+                            <p>Capital: Berlin</p>
                         </li>
-                        <li class="price_items">
-                            <p class="basic pro">Professional</p>
-                            <p class="price pro"><span class="price_span pro">$</span>24.99</p>
-                            <p class="paket_gb pro">1 TB Storage</p>
-                            <p class="paket_gb pro">5 Users Allowed</p>
-                            <p class="paket_gb pro">Send up to 10 GB</p>
-                            <a class="link_word2" href="#">Learn more</a>
+                        <li class="country-item">
+                            <img src="/images//usa.png" alt="" class="flag">
+                            <h4>United States of America</h4>
+                            <p>Population: 323,947,000</p>
+                            <p>Region: Americas</p>
+                            <p>Capital: Washington, D.C.</p>
                         </li>
-                        <li class="price_items">
-                            <p class="basic">Master</p>
-                            <p class="price"><span class="price_span">$</span>39.99</p>
-                            <p class="paket_gb">2 TB Storage</p>
-                            <p class="paket_gb">10 Users Allowed</p>
-                            <p class="paket_gb">Send up to 20 GB</p>
-                            <a class="link_word" href="#">Learn more</a>
+                        <li class="country-item">
+                            <img src="/images/brasil.png" alt="" class="flag">
+                            <h4>Brazil</h4>
+                            <p>Population: 206,135,893</p>
+                            <p>Region: Americas</p>
+                            <p>Capital: Brasília</p>
+                        </li>
+                        <li class="country-item">
+                            <img src="/images//iceland.png" alt="" class="flag">
+                            <h4>Iceland</h4>
+                            <p>Population: 334,300</p>
+                            <p>Region: Europe</p>
+                            <p>Capital: Reykjavík</p>
+                        </li>
+                    </ul>
+                    <ul class="country-list">
+                        <li class="country-item">
+                            <img src="/images/afgon.png" alt="" class="flag">
+                            <h4>Afghanistan</h4>
+                            <p>Population: 27,657,145</p>
+                            <p>Region: Asia</p>
+                            <p>Capital: Qobul</p>
+                        </li>
+                        <li class="country-item">
+                            <img src="/images/bilmayman.png" alt="" class="flag">
+                            <h4>Åland Islands</h4>
+                            <p>Population: 28,875</p>
+                            <p>Region: Eorope</p>
+                            <p>Capital: Mariehamn</p>
+                        </li>
+                        <li class="country-item">
+                            <img src="/images/alban.png" alt="" class="flag">
+                            <h4>Albania</h4>
+                            <p>Population: 2,886,026</p>
+                            <p>Region: Eourope</p>
+                            <p>Capital: Tirana</p>
+                        </li>
+                        <li class="country-item">
+                            <img src="/images/algair.png" alt="" class="flag">
+                            <h4>Algeria</h4>
+                            <p>Population: 40,400,000</p>
+                            <p>Region: Africa</p>
+                            <p>Capital: Algiers</p>
                         </li>
                     </ul>
                 </div>
-            </div>
+           </div>
         </section>
     </main>
 </body>
